@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina di Atterraggio Prodotto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <img id="header-img" src="https://freecodecamp.org" alt="Logo Aziendale">
+        <nav id="nav-bar">
+            <a class="nav-link" href="#caratteristiche">Caratteristiche</a>
+            <a class="nav-link" href="#video-sezione">Video</a>
+            <a class="nav-link" href="#prezzi">Prezzi</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="iscrizione">
+            <h2>Iscriviti alla nostra newsletter</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input type="email" id="email" name="email" placeholder="Inserisci il tuo indirizzo email" required>
+                <input type="submit" id="submit" value="Inizia Ora">
+            </form>
+        </section>
+
+        <section id="caratteristiche">
+            <div class="feat-item">
+                <h3>Materiali Pregiati</h3>
+                <p>Utilizziamo solo i migliori materiali disponibili sul mercato per garantire la massima durata nel tempo.</p>
+            </div>
+            <div class="feat-item">
+                <h3>Spedizione Rapida</h3>
+                <p>I nostri prodotti vengono spediti entro 24 ore dall'ordine con imballaggi completamente ecosostenibili.</p>
+            </div>
+            <div class="feat-item">
+                <h3>Garanzia Totale</h3>
+                <p>Offriamo il rimborso completo entro 30 giorni dall'acquisto se non sei soddisfatto delle prestazioni.</p>
+            </div>
+        </section>
+
+        <section id="video-sezione">
+            <iframe id="video" src="https://youtube-nocookie.com" allowfullscreen></iframe>
+        </section>
+
+        <section id="prezzi">
+            <div class="card">
+                <div class="livello">Base</div>
+                <h2>€200</h2>
+                <p>Funzionalità standard</p>
+                <p>Supporto via email</p>
+                <button class="btn">Acquista</button>
+            </div>
+            <div class="card">
+                <div class="livello">Avanzato</div>
+                <h2>€400</h2>
+                <p>Tutte le funzionalità</p>
+                <p>Supporto 24/7</p>
+                <button class="btn">Acquista</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
